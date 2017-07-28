@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context="pritam.com.timeconverter.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.04">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/utcText"
+                android:id="@+id/utcText" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/hours"
+                android:layout_weight="1"
+                android:text="@string/hours"
+                android:hint="Hours"
+                android:inputType="number"
+                android:maxLength="@integer/maxLength"
+                android:numeric="integer" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/colon"
+                android:id="@+id/colon" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/minutes"
+                android:layout_weight="1"
+                android:text="@string/minutes"
+                android:hint="Minutes"
+                android:numeric="integer"
+                android:maxLength="@integer/maxLength" />
+        </LinearLayout>
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/toggleView"
+            android:id="@+id/switch1"
+            android:checked="true"
+            android:textOff="@string/off"
+            android:textOn="@string/on"
+            android:showText="true"
+            android:layout_gravity="left"
+            android:layout_weight="0.04" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="46dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/resultTime"
+                android:id="@+id/result"
+                android:hint="@string/result" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/prevDay"
+                android:id="@+id/prevDay"
+                android:textColor="@android:color/holo_red_dark"
+                android:layout_marginLeft="80dp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/est"
+            android:id="@+id/est"
+            android:textAllCaps="false"
+            android:layout_weight="0.04" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cst"
+            android:id="@+id/cst"
+            android:textAllCaps="false"
+            android:layout_weight="0.04" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mst"
+            android:id="@+id/mst"
+            android:textAllCaps="false"
+            android:layout_weight="0.04" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pst"
+            android:id="@+id/PST"
+            android:textAllCaps="false"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.04" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/clearAll"
+            android:id="@+id/clearAll"
+            android:textAllCaps="false"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.04" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.04"
+            android:id="@+id/radioGroup">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/est"
+                android:id="@+id/estRadio"
+                android:layout_weight="0.04"
+                android:checked="true" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cst"
+                android:id="@+id/cstRadio"
+                android:layout_weight="0.04" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mst"
+                android:id="@+id/mstRadio"
+                android:layout_weight="0.04" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pst"
+                android:id="@+id/pstRadio"
+                android:layout_weight="0.04" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/clearAll"
+                android:id="@+id/clearRadio"
+                android:layout_weight="0.04" />
+        </RadioGroup>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/convert"
+            android:id="@+id/convert"
+            android:layout_weight="0.04" />
+    </LinearLayout>
+</LinearLayout>

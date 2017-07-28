@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:scrollbars="vertical"
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:weightSum="10"
+    tools:context="pritam.com.pizzastore.MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" android:orientation="horizontal"
+        android:id="@+id/toppingList1"
+        android:layout_weight="1"></LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" android:orientation="horizontal"
+        android:id="@+id/toppingList2" android:layout_weight="1"></LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center" android:orientation="horizontal"
+        android:layout_weight="3"
+        android:id="@+id/pizzaImageLayout" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:src="@drawable/pizza"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:orientation="vertical" android:layout_weight="3">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/prevOrder"
+            android:id="@+id/prevOrderCheckBox" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/homeDelivery"
+            android:text="@string/homeDelivery" />
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/toppingsProgress"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:orientation="horizontal" android:layout_weight="1"
+        android:layout_gravity="center"
+        android:id="@+id/updateButtonsLayout"
+        android:weightSum="2">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" android:id="@+id/addToppings"
+            android:text="@string/addTopping"
+            android:layout_weight="1"
+            android:textAllCaps="false"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" android:id="@+id/removeToppings"
+            android:text="@string/clearPizza"
+            android:layout_weight="1"
+            android:textAllCaps="false"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:id="@+id/checkoutLayout" android:layout_weight="1">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/checkoutButton"
+            android:text="@string/checkoutButton"
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+    </ScrollView>

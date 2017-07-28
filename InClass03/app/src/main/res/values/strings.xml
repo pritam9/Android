@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">InClass03</string>
+    <string name="Name"></string>
+    <string name="email_id" />
+    <string name="languageText">Favourite Programming Language</string>
+    <string name="java_radio">Java</string>
+    <string name="c_radio">C</string>
+    <string name="c_sharp">C#</string>
+    <string name="submit_button">Submit</string>
+    <string name="app_name1">Display Activity</string>
+    <string name="name">Name: </string>
+    <string name="email">Email: </string>
+    <string name="lang">Prog. Language: </string>
+    <string name="title">Student Information</string>
+    <string name="editInfoText">Edit Information</string>
+    <string name="save">Save</string>
+    <string name="studentInformation">Student Information</string>
+</resources>

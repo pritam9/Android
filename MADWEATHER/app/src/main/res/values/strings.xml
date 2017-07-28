@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MAD WEATHER!</string>
+    <string name="cityHint">Enter City,State,Country</string>
+    <string name="MetricSystem">Use Metric System</string>
+    <string name="CheckWeatherButton">Check Weather</string>
+    <string name="temp">Temperature:    </string>
+    <string name="Humidity">Humidity:   </string>
+    <string name="Pressure">Pressure:   </string>
+    <string name="Weather">Weather:     </string>
+    <string name="ON">ON</string>
+    <string name="OFF">OFF</string>
+</resources>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">In Class 04</string>
+    <string name="threadAsync">Generate Password (Async Task)</string>
+    <string name="threadButton">Generate Password (Thread)</string>
+    <string name="numbers">Numbers</string>
+    <string name="length">Select Password Length</string>
+
+    <string-array name="spinner_array">
+        <item>8-12</item>
+        <item>13-17</item>
+        <item>18-22</item>
+        <item>Select Password Length</item>
+    </string-array>
+</resources>

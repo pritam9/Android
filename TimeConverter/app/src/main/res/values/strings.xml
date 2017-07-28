@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Time Converter</string>
+    <string name="utcText">UTC:</string>
+    <string name="hours" />
+    <string name="colon">:</string>
+    <string name="minutes" />
+    <string name="clearAll">Clear All</string>
+    <string name="pst">Pacific Standard Time (PST)</string>
+    <string name="mst">Mountain Standard Time (MST)</string>
+    <string name="cst">Central Standard Time (CST)</string>
+    <string name="est">Eastern Standard Time (EST)</string>
+    <string name="toggleView">Button/Radio</string>
+    <string name="convert">Convert</string>
+    <string name="prevDay">Previous Day</string>
+    <string name="resultTime" />
+    <string name="resultText">Result:</string>
+    <string name="on">ON</string>
+    <string name="off">OFF</string>
+    <string name="result">Result:</string>
+</resources>

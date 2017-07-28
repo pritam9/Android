@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Boomer</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src *; style-src *  'unsafe-inline'; script-src *  'unsafe-inline'; media-src *">
+    <link rel="shortcut icon" href="favicon_16.ico"/>
+    <link rel="bookmark" href="favicon_16.ico"/>
+    <style type="text/css">
+        .center-div
+        {
+            position: absolute;
+            margin: auto;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            width: 100px;
+            height: 100px;
+            background-color: #ccc;
+            border-radius: 3px;
+        }
+    </style>
+    <!-- site css -->
+    <link rel="stylesheet" href="css/site.min.css">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,800,700,400italic,600italic,700italic,800italic,300italic" rel="stylesheet" type="text/css">
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+    <!--[if lt IE 9]>
+    <link rel="stylesheet"
+          href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script
+            src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+    <![endif]-->
+    <script type="text/javascript" src="js/site.min.js"></script>
+    <script type="text/javascript" src="js/userLogin.js"></script>
+</head>
+<body style="background-color: #4FC1E9;">
+<!-- Form-->
+<div class="container">
+        <div class="container-fluid col-sm-12">
+                <div class="example col-sm-6 col-sm-offset-3" style="background-color: #48CFAD;">
+                        <div class="col-md-12">
+                            <h1 class="example-title" style="text-align: center">Login</h1>
+                            <form>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <input type="email" name="username" id="username" class="form-control" placeholder="Email Id" style="text-align: center">
+                                    </div>
+
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <input type="password" name="password" id="password" class="form-control" placeholder="Password" style="text-align: center">
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <button type="submit" onclick="verifyLogin()" class="btn btn-warning btn-block">User Log In</button>
+                                    </div>
+									<div class="col-md-6">
+                                        <a href="regn.html" class="btn btn-warning btn-block">Sign Up</a>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                </div>
+        </div>
+</div>
+<script type="text/javascript" src="cordova.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+
+    <script type="text/javascript">
+        app.initialize();
+    </script>
+</body>
+</html>

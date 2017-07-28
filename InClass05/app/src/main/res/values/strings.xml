@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">In Class 05</string>
+    <string name="go">Go</string>
+    <string name="keyword">Search Keyword</string>
+    <string-array name="keywords">
+        <item>UNCC</item>
+        <item>Android</item>
+        <item>Winter</item>
+        <item>Aurora</item>
+        <item>Wonders</item>
+    </string-array>
+    <string name="alertDialogTitle">Select a keyword</string>
+</resources>

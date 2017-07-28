@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "916179816420",
+    "firebase_url": "https://inclass09-81766.firebaseio.com",
+    "project_id": "inclass09-81766",
+    "storage_bucket": "inclass09-81766.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:916179816420:android:f70c004c130b81a3",
+        "android_client_info": {
+          "package_name": "pritam.com.inclass09"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "916179816420-pj8360j4eifd04rscp29tq6ebh6ttupq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEOIGommcwrUpgvKlPTD8jvIy_-ke4LBU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
